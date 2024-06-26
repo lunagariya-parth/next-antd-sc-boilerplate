@@ -12,6 +12,7 @@ export const globalTokens: Partial<AliasToken> = {
 
 export const componentTokens: OverrideToken = {
   Button: {
+    colorText: 'var(--primary-600)',
     colorPrimaryBg: 'var(--primary-50)',
     colorPrimaryBgHover: 'var(--primary-100)',
     colorPrimaryBorder: 'var(--primary-200)',
@@ -27,5 +28,5 @@ export const componentTokens: OverrideToken = {
     borderRadiusSM: 20,
     defaultShadow: 'none',
     primaryShadow: 'none'
-  },
-};
+  }
+}

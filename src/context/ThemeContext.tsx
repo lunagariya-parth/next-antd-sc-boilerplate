@@ -12,6 +12,7 @@ import {
 import { ConfigProvider } from 'antd'
 import { themes } from '@/config/variables'
 import { componentTokens, globalTokens } from '@/config/themeVariables'
+import GlobalStyle from '@/config/global.style'
 
 type ThemeContextType = [
   keyof typeof themes,
@@ -48,6 +49,7 @@ export function ThemeProvider({ children }: PropsWithChildren) {
           hashed: false
         }}
       >
+        <GlobalStyle />
         {children}
       </ConfigProvider>
     </ThemeContext.Provider>

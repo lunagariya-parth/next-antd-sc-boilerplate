@@ -6,7 +6,7 @@ import Sidebar from '../../components/Sidebar'
 import { Button } from '@/components/Ant/Button'
 import { Header } from '@/components/Ant/Header'
 import { Footer } from '@/components/Ant/Footer'
-import { DashboardLayout } from '../components/DashboardLayout.styled'
+import { DashboardLayout } from '../../components/DashboardLayout.styled'
 import { useTheme } from '@/context/ThemeContext'
 import IconHamburger from '@/components/icons/IconHamburger'
 
